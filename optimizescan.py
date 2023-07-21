@@ -35,8 +35,9 @@ Input: 404 ; Output: 0.33
 class Solution:    
     def optimizescan(self, battcap):
         distance = battcap/250
+        distance1 = distance / 6
         side = distance/4
-        return side**2
+        return side * (side * 2)
 
         #TODO: Write code below to return a float with the solution to the prompt.
 
